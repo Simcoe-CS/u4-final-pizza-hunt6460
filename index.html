@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Make your own pizza</header>
+
+    <h1>
+        <fieldset style="display: inline;">
+            <legend>Choose your size:</legend>
+            <label>
+                <input type="radio" name="size" value="10">Small $10
+                <label>
+                    <input type="radio" name="size" value="12.5">medium $12.50
+                    <label>
+                        <input type="radio" name="size" value="14.5">Large $14.50
+                    </label>
+        </fieldset>
+    </h1>
+    <h2>
+        <fieldset style="display: inline;">
+            <legend>Choose your toppings:</legend>
+            <label>
+                <input type="checkbox" name="toppings" value="1.5">ham $1.50
+                <label>
+                    <input type="checkbox" name="toppings" value="1.5">pepperoni $1.50
+                    <label>
+                        <input type="checkbox" name="toppings" value="1.5">onions $1.50
+                        <label>
+                            <input type="checkbox" name="toppings" value="1.5">pineapple $1.50
+                            <label>
+                                <input type="checkbox" name="toppings" value="3">more cheese $3.00
+                            </label>
+        </fieldset>
+    </h2>
+    <input type="button" value="Submit" onclick="calc()">
+    <input type="button" value="reset" onclick="reset()">
+
+    <hr>
+    <p id="out1"> </p>
+    <p id="out2"> </p>
+    <p id="out3"> </p>
+    <p id="out4"> </p>
+    <div class="container">
+        <img src="image0.png" class="image0" name="image">
+        <img src="image01.png" class="image01" name="image">
+        <img src="image02.png" class="image02" name="image">
+        <img src="image03.png" class="image03" name="image">
+        <img src="image04.png" class="image04" name="image">
+        <img src="image05.png" class="image05" name="image">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
